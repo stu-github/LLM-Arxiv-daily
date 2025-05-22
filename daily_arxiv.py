@@ -84,7 +84,7 @@ def get_code_link(qword:str) -> str:
         code_link = results["items"][0]["html_url"]
     return code_link
 
-def get_daily_papers(topic,query="slam", max_results=2):
+def get_daily_papers(topic,query="LLM", max_results=2):
     """
     @param topic: str
     @param query: str
@@ -294,8 +294,8 @@ def json_to_md(filename,md_filename,
         #     f.write(f"[![Issues][issues-shield]][issues-url]\n\n")
 
         if use_title == True:
-            #f.write(("<p align="center"><h1 align="center"><br><ins>CV-ARXIV-DAILY"
-            #         "</ins><br>Automatically Update CV Papers Daily</h1></p>\n"))
+            #f.write(("<p align="center"><h1 align="center"><br><ins>LLM-ARXIV-DAILY"
+            #         "</ins><br>Automatically Update LLM Papers Daily</h1></p>\n"))
             f.write("## Updated on " + DateNow + "\n")
         else:
             f.write("> Updated on " + DateNow + "\n")
