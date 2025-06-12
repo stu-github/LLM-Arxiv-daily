@@ -26,7 +26,5 @@ keywords:
         filters: ["LLM", "Large Language Models"]
     "Multimodal":
         filters: ["Multimodal Models"]
-    "Diffusion Models":
-        filters: ["Diffusion"]
-    "Representation Learning":
-        filters: ["Contrastive Learning", "Representation Learning"]
+    "Agent":
+        filters: ["Agent"]
